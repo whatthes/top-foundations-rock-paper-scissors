@@ -70,38 +70,48 @@ function playGame(){
     let humanScore = 0;
     let computerScore = 0;
 
-    let humanSelection = getHumanChoice();
-    let computerSelection = getComputerChoice();
+    // let humanSelection = getHumanChoice();
+    // let computerSelection = getComputerChoice();
 
-    console.log("human: " + humanSelection);
-    console.log("computer: " + computerSelection);
+    // console.log("human: " + humanSelection);
+    // console.log("computer: " + computerSelection);
 
-    playRound(humanSelection,computerSelection);
+    // playRound(humanSelection,computerSelection);
     
-    humanSelection = getHumanChoice();
-    computerSelection = getComputerChoice();
-    console.log("human: " + humanSelection);
-    console.log("computer: " + computerSelection);
-    playRound(humanSelection,computerSelection);
+    // humanSelection = getHumanChoice();
+    // computerSelection = getComputerChoice();
+    // console.log("human: " + humanSelection);
+    // console.log("computer: " + computerSelection);
+    // playRound(humanSelection,computerSelection);
     
-    humanSelection = getHumanChoice();
-    computerSelection = getComputerChoice();
-    console.log("human: " + humanSelection);
-    console.log("computer: " + computerSelection);
-    playRound(humanSelection,computerSelection);
+    // humanSelection = getHumanChoice();
+    // computerSelection = getComputerChoice();
+    // console.log("human: " + humanSelection);
+    // console.log("computer: " + computerSelection);
+    // playRound(humanSelection,computerSelection);
 
     
-    humanSelection = getHumanChoice();
-    computerSelection = getComputerChoice();
-    console.log("human: " + humanSelection);
-    console.log("computer: " + computerSelection);
-    playRound(humanSelection,computerSelection);
+    // humanSelection = getHumanChoice();
+    // computerSelection = getComputerChoice();
+    // console.log("human: " + humanSelection);
+    // console.log("computer: " + computerSelection);
+    // playRound(humanSelection,computerSelection);
 
-    humanSelection = getHumanChoice();
-    computerSelection = getComputerChoice();
-    console.log("human: " + humanSelection);
-    console.log("computer: " + computerSelection);
-    playRound(humanSelection,computerSelection);
+    // humanSelection = getHumanChoice();
+    // computerSelection = getComputerChoice();
+    // console.log("human: " + humanSelection);
+    // console.log("computer: " + computerSelection);
+    // playRound(humanSelection,computerSelection);
+
+    for (let step = 0; step < 5; step++) {
+        let humanSelection = getHumanChoice();
+        let computerSelection = getComputerChoice();
+
+        console.log("human: " + humanSelection);
+        console.log("computer: " + computerSelection);
+
+        playRound(humanSelection,computerSelection);
+    }
 
     console.log("Final Human Score: " + humanScore);
     console.log("Final Computer Score: " + computerScore);
